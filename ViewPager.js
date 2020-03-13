@@ -1,9 +1,9 @@
 
 import React,{Component} from 'react';
 import {
-  requireNativeComponent,
-  ViewPagerAndroid,
+  requireNativeComponent
 } from 'react-native';
+import ViewPagerAndroid from '@react-native-community/viewpager'
 
 const VIEWPAGER_REF = 'viewPager';
 
